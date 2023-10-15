@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text: hsl(200, 15%, 8%);
+  --bg: hsl(0, 0%, 98%);
+}
+
+html {
+  height: 100vh
+}
+
+
+body {
+  font-family: 'Nunito', sans-serif;
+  height: max-content;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* Custom Select Element */
+
+details {
+  position: relative;
+  width: 200px;
+}
+
+details[open] {
+  z-index: 1;
+}
+
+summary {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 100%);
+  list-style: none;
+}
+
+summary:after {
+  content: '˅';
+}
+
+summary:focus {
+  outline: none;
+}
+
+ul {
+  width: 100%;
+  background: hsl(0, 0%, 100%);
+  position: absolute;
+  top: calc(100% + .5rem);
+  left: 0;
+  padding: 1rem;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+li {
+  margin: 0;
+  padding: .1rem 0;
+}
+
+li:first-child {
+  padding-top: 0;
+}
+
+li:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+label {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+}
