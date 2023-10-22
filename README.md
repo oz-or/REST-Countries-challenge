@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:([https://your-solution-url.com](https://www.frontendmentor.io/solutions/rest-countries-challenge-with-reacttailwind-rmo71DOhJe)
+- Live Site URL: [https://your-live-site-url.com](https://rest-countries-challenge-979yqwwnu-oz-or.vercel.app/)
 
 ## My process
 
